@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Calculadora de Combustível",
+    "slug": "calculadora-combustivel",
+    "owner": "bicalho743",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0F0F"
+    },
+    "android": {
+      "package": "com.bicalho743.calculadoracombustivel",
+      "versionCode": 1,
+      "targetSdkVersion": 35,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F0F0F"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8870942389525455~9862499029"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9fdc9b2b-6ad5-43d3-bf67-0f49b5aa2e56"
+      }
+    }
+  }
+}
